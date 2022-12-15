@@ -2,7 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import { AiOutlineGithub, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
-import ContactForm from "../components/Contact.js";
+import ContactForm from "../components/ContactForm.js";
 import Avatar from "../public/Avatar.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -16,6 +16,7 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
   return (
@@ -60,7 +61,10 @@ export default function Home() {
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiOutlineGithub />
               <AiFillLinkedin />
-              <AiTwotoneMail />
+              <AiTwotoneMail>
+                <button onClick={() => setModalIsOpen(true)}>Open Form</button>
+                <ContactForm isOpen={setModalIsOpen} />
+              </AiTwotoneMail>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={Avatar} layout="fill" objectFit="cover" />
@@ -201,7 +205,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <ContactForm />
     </div>
   );
 }
