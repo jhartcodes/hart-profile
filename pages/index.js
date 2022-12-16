@@ -14,6 +14,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import Link from "next/link.js";
 
 export default function Home() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -204,6 +205,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Link href="/projects">About Us</Link>
       </main>
     </div>
   );
