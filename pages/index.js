@@ -74,7 +74,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Started learning how to code at the beginning of 2021 and have
               fallen in love with creating websites and applications.
@@ -95,7 +95,12 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image
+                src={design}
+                width={100}
+                height={100}
+                className="mx-auto d-block"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -109,7 +114,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Scheduler</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} atl={"Projects"} />
+              <Image
+                src={code}
+                width={100}
+                height={100}
+                className="mx-auto d-block"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Interested In working with me?
               </h3>
@@ -120,7 +130,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            {/* <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">Are you in need of a new website.</p>
@@ -129,15 +139,14 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">My Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              I've made some really cool stuff.
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -155,7 +164,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={web2}
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -164,7 +173,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={web1}
               />
             </div>
             <div className="basis-1/3 flex-1">
