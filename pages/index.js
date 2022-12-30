@@ -14,6 +14,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import video from "../public/video.mp4";
 import Link from "next/link.js";
 
 export default function Home() {
@@ -78,14 +79,13 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Started learning how to code at the beginning of 2021 and have
               fallen in love with creating websites and applications.
-              <span className="text-teal-500"> </span>
-              This past year I worked with a small team building a test
-              automation software to help companies deliver fast and stable
-              software. I worked closely with key stake holders, from
-              conception, prototype designs, and design iterations, to
-              implementation and production releases. The graph's and designs I
-              built help teams manage their codebase and helped identify bugs
-              and manage the health of their system more efficiantly.{" "}
+              <span className="text-teal-500"> </span>I am a skilled developer
+              with a strong track record of creating high-quality, user-friendly
+              websites. With a passion for problem-solving and a talent for
+              creating, I am able to effectively translate customer needs into
+              functional and visually appealing web solutions. In addition to my
+              technical skills, I am a strong communicator and work well in
+              high-pressure environments.
               <span className="text-teal-500">startup </span>
               to help build a small
             </p>
@@ -211,6 +211,9 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <video src="video/mp4" controls />
             </div>
           </div>
         </section>
