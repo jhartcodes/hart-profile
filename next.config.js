@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: "/hart-profile",
   webpack: (config) => {
     config.module.rules.push({
       test: /\.mp4$/,
