@@ -146,12 +146,7 @@ export default function Home() {
             <div class="card">
               <h3 className="text-3xl my-10 dark:text-white ">Bloom</h3>
               <div class="flex flex-wrap -mx-2">
-                <Image
-                  src={web2}
-                  width={50}
-                  height={50}
-                  class="w-1/2 px-2 mb-2"
-                />
+                <Image src={web2} class="w-1/2 px-2 mb-2" />
                 <Image src={web1} class="w-1/2 px-2 mb-2" />
                 <Image src={web3} class="w-1/2 px-2 mb-2" />
                 <Image src={web4} class="w-1/2 px-2 mb-2" />
@@ -161,29 +156,14 @@ export default function Home() {
             <div class="card">
               <h3 className="text-3xl my-10 dark:text-white ">Scheduler</h3>
               <div class="flex flex-wrap -mx-2">
-                <Image
-                  src={web7}
-                  width={50}
-                  height={50}
-                  class="w-1/2 px-2 mb-2"
-                />
-                <Image
-                  src={web6}
-                  width={50}
-                  height={50}
-                  class="w-1/2 px-2 mb-2"
-                />
+                <Image src={web7} class="w-1/2 px-2 mb-2" />
+                <Image src={web6} class="w-1/2 px-2 mb-2" />
               </div>
             </div>
             <div class="card">
               <h3 className="text-3xl my-10 dark:text-white ">Trillo</h3>
               <div class="flex flex-wrap -mx-2">
-                <Image
-                  src={web5}
-                  width={100}
-                  height={100}
-                  class="w-1/2 px-2 mb-2"
-                />
+                <Image src={web5} class="w-1/2 px-2 mb-2" />
               </div>
             </div>
           </div>
