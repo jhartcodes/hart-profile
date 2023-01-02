@@ -90,7 +90,7 @@ export default function Home() {
               to help build a small
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am currently looking for new opportunities.
+              I am open to new opportunities.
             </p>
           </div>
           <div className="lg:flex gap-10">
