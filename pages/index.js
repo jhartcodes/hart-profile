@@ -146,7 +146,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">My Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I've made some really cool stuff.
+              Check out my work.
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -163,7 +163,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web2}
               />
             </div>
@@ -172,7 +171,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web1}
               />
             </div>
@@ -181,7 +179,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web3}
               />
             </div>
@@ -190,7 +187,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web4}
               />
             </div>
@@ -199,7 +195,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web5}
               />
             </div>
@@ -208,7 +203,6 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={web6}
               />
             </div>
@@ -217,7 +211,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Link href="/projects">About Us</Link>
+        <div>About Us</div>
       </main>
     </div>
   );
